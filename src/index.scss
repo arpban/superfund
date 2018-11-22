@@ -1,0 +1,28 @@
+@import "components/styles/partials/variables";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: $lato;
+	font-weight: 400;
+	color: $black;
+	background: white;
+	font-size: 14px;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.hidden{
+	display: none !important;
+}
